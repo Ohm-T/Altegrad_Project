@@ -1,0 +1,18 @@
+TO UPGRADE:
+ - Logistic (tfidf -> count vectorizer?)
+ - CNN_BiLSTM (Count_vectorizer) ->https://github.com/jgbrasier/protein-classification/blob/main/ProtClass.ipynb
+ - PROTCNN
+ - structure_GAT_GNN
+ - sequence HAN ?
+ - HGP_SL ->https://arxiv.org/pdf/1911.05954.pdf / https://github.com/cszhangzhen/HGP-SL
+
+TO TEST:
+- Model that combines seq and graph
+- ProtBERT -> https://huggingface.co/Rostlab/prot_bert / https://github.com/nlptown/nlp-notebooks/blob/master/Text%20classification%20with%20BERT%20in%20PyTorch.ipynb
+- U2GNN -> https://github.com/librahu/U2GNN/blob/master/U2GNN_pytorch/train_pytorch_U2GNN_Sup.py
+- UGFormer ->https://github.com/lucidrains/uformer-pytorch  /  https://github.com/daiquocnguyen/Graph-Transformer/tree/master/UGformerV2_PyTorch
+- https://github.com/zshicode/GNN-AttCL-protein
+- Protein Functional Family Classification Based on Multilevel (PCNM) Feature Information ->https://ieeexplore.ieee.org/document/9994943 (2022)
+- Sequence base improvements -> https://www.kaggle.com/code/danofer/deep-protein-sequence-family-classification/notebook#Preprocessing-and-visualization-of-dataset
+
+Model ideas : -https://datasciencecastnet.home.blog/2020/10/30/language-models-for-protein-sequence-classification/
